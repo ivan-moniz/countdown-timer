@@ -1,5 +1,5 @@
 // DIKLARASON DI DATA
-let date = new Date("25 Feb 2021 11:13:50 ").getTime();
+let date = new Date("1 March 2021 1:13:50 ").getTime();
 
 // UPDATE COUNT EVERY 1 SECONDS
 const x = setInterval(function () {
@@ -16,7 +16,7 @@ const x = setInterval(function () {
   // DI RESTU DI DIVISON INTERU ENTRI
   // DISTANSIA Y TOTAL DI SIGUNDU NA UN DIA
   // DIVIDIL PA TOTAL DI SIGUNDU NA UN ORA VEZIS 1 MILISIGUNDU
-  let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (100 * 60 * 60));
+  let hours = Math.floor((distance % (1000 * 60 * 60 * 24 )) / (100 * 60 * 60));
 
   // RIZULTADU DI MINUTU ATRAVES
   // DI RESTU DI DIVISON INTERU ENTRI
