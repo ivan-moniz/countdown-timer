@@ -1,5 +1,5 @@
 // DIKLARASON DI DATA
-let date = new Date("17 Feb 2021 11:13:50 ").getTime();
+let date = new Date("25 Feb 2021 11:13:50 ").getTime();
 
 // UPDATE COUNT EVERY 1 SECONDS
 const x = setInterval(function () {
